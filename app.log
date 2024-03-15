@@ -1,0 +1,54 @@
+2024-03-03T22:47:47.865+05:30  INFO 37932 --- [main] in.ashokit.Application                   : Starting Application using Java 17.0.8.1 with PID 37932 (D:\Classes\26-JRTP\workspace\01-SB-Logging-App\target\classes started by kpati in D:\Classes\26-JRTP\workspace\01-SB-Logging-App)
+2024-03-03T22:47:47.867+05:30  INFO 37932 --- [main] in.ashokit.Application                   : No active profile set, falling back to 1 default profile: "default"
+2024-03-03T22:47:48.504+05:30  INFO 37932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-03T22:47:48.519+05:30  INFO 37932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-03T22:47:48.520+05:30  INFO 37932 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03T22:47:48.572+05:30  INFO 37932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-03T22:47:48.573+05:30  INFO 37932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+2024-03-03T22:47:48.796+05:30  INFO 37932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-03T22:47:48.803+05:30  INFO 37932 --- [main] in.ashokit.Application                   : Started Application in 1.175 seconds (process running for 1.6)
+2024-03-03T23:44:04.726+05:30  INFO 28000 --- [main] in.ashokit.Application                   : Starting Application using Java 17.0.8.1 with PID 28000 (D:\Classes\26-JRTP\workspace\01-SB-Logging-App\target\classes started by kpati in D:\Classes\26-JRTP\workspace\01-SB-Logging-App)
+2024-03-03T23:44:04.728+05:30  INFO 28000 --- [main] in.ashokit.Application                   : No active profile set, falling back to 1 default profile: "default"
+2024-03-03T23:44:05.877+05:30  INFO 28000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-03T23:44:05.898+05:30  INFO 28000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-03T23:44:05.898+05:30  INFO 28000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03T23:44:05.980+05:30  INFO 28000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-03T23:44:05.980+05:30  INFO 28000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2024-03-03T23:44:06.509+05:30  WARN 28000 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-03-03T23:44:06.548+05:30  INFO 28000 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-03T23:44:06.579+05:30 ERROR 28000 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2024-03-03T23:44:13.917+05:30  INFO 37932 --- [RMI TCP Connection(59)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-03T23:44:35.355+05:30  INFO 38488 --- [main] in.ashokit.Application                   : Starting Application using Java 17.0.8.1 with PID 38488 (D:\Classes\26-JRTP\workspace\01-SB-Logging-App\target\classes started by kpati in D:\Classes\26-JRTP\workspace\01-SB-Logging-App)
+2024-03-03T23:44:35.359+05:30  INFO 38488 --- [main] in.ashokit.Application                   : No active profile set, falling back to 1 default profile: "default"
+2024-03-03T23:44:36.377+05:30  INFO 38488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-03T23:44:36.395+05:30  INFO 38488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-03T23:44:36.396+05:30  INFO 38488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03T23:44:36.464+05:30  INFO 38488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-03T23:44:36.464+05:30  INFO 38488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1057 ms
+2024-03-03T23:44:36.961+05:30  INFO 38488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-03T23:44:36.974+05:30  INFO 38488 --- [main] in.ashokit.Application                   : Started Application in 2.05 seconds (process running for 2.832)
+2024-03-03T23:44:52.820+05:30  INFO 38488 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03T23:44:52.820+05:30  INFO 38488 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-03T23:44:52.836+05:30  INFO 38488 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2024-03-03T23:44:52.922+05:30  INFO 38488 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : getWelcomeMsg() - started..
+2024-03-03T23:44:52.922+05:30  INFO 38488 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : getWelcome() - ended...
+2024-03-03T23:44:52.922+05:30  WARN 38488 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : this is warning msg..
+2024-03-03T23:44:52.922+05:30 ERROR 38488 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : this is error msg..
+2024-03-03T23:51:58.585+05:30  INFO 38488 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-03T23:52:20.446+05:30  WARN 34848 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : this is warning msg..
+2024-03-03T23:52:20.448+05:30 ERROR 34848 --- [http-nio-9090-exec-1] in.ashokit.service.MsgService            : this is error msg..
